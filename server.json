@@ -1,17 +1,17 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
-  "name": "io.github.bitmapasset/dear-agent",
-  "description": "Dear Agent — your AI agent keeps your diary for you. A local-first MCP server + skill that lets any AI agent maintain a human's daily life journal from text, photos, and voice notes. You never open an app or write a word.",
+  "name": "io.github.BitmapAsset/dear-agent",
+  "description": "Your AI agent keeps your diary for you. Local-first, private, works in any agent.",
   "repository": {
     "url": "https://github.com/BitmapAsset/dear-agent",
     "source": "github"
   },
-  "version": "0.2.2",
+  "version": "0.2.3",
   "packages": [
     {
       "registryType": "npm",
       "identifier": "dear-agent",
-      "version": "0.2.2",
+      "version": "0.2.3",
       "transport": {
         "type": "stdio"
       },
