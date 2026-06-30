@@ -1,0 +1,52 @@
+{
+  "name": "dear-agent",
+  "version": "0.1.0",
+  "description": "Dear Agent — your AI agent keeps your diary for you. A local-first MCP server + skill that lets any AI agent maintain a human's daily life journal from text, photos, and voice notes. You never open an app or write a word.",
+  "type": "module",
+  "bin": {
+    "dear-agent": "dist/index.js"
+  },
+  "files": [
+    "dist",
+    "SKILL.md",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "diary",
+    "journal",
+    "agent",
+    "ai-agent",
+    "claude",
+    "cursor",
+    "openclaw",
+    "life-log",
+    "journaling",
+    "local-first"
+  ],
+  "author": "BitmapAsset",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BitmapAsset/dear-agent.git"
+  },
+  "homepage": "https://github.com/BitmapAsset/dear-agent",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.0",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.6.0"
+  }
+}
