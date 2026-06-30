@@ -1,6 +1,6 @@
 {
   "name": "dear-agent",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "description": "Dear Agent — your AI agent keeps your diary for you. A local-first MCP server + skill that lets any AI agent maintain a human's daily life journal from text, photos, and voice notes. You never open an app or write a word.",
   "type": "module",
   "bin": {
@@ -30,7 +30,17 @@
     "openclaw",
     "life-log",
     "journaling",
-    "local-first"
+    "local-first",
+    "ai-diary",
+    "diary-mcp",
+    "journal-mcp",
+    "personal-journal",
+    "journal-keeper",
+    "daily-journal",
+    "life-journal",
+    "voice-journal",
+    "personal-memory",
+    "memory"
   ],
   "author": "BitmapAsset",
   "license": "MIT",

@@ -1,17 +1,17 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.BitmapAsset/dear-agent",
-  "description": "Your AI agent keeps your diary for you. Local-first, private, works in any agent.",
+  "description": "Your AI agent keeps your diary and journal for you. Local-first, private, any agent.",
   "repository": {
     "url": "https://github.com/BitmapAsset/dear-agent",
     "source": "github"
   },
-  "version": "0.2.3",
+  "version": "0.2.4",
   "packages": [
     {
       "registryType": "npm",
       "identifier": "dear-agent",
-      "version": "0.2.3",
+      "version": "0.2.4",
       "transport": {
         "type": "stdio"
       },
