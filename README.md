@@ -62,6 +62,34 @@ You never call tools yourself. You just talk to your agent:
 
 Your agent calls the right tool and keeps the diary current.
 
+## It remembers you, and it talks back
+
+Dear Agent is not just storage. Two capabilities turn it into a living memory of your life:
+
+- **`recall`** — your agent can ask the diary *"what do you know about this person — their people, patterns, open commitments?"* and get a synthesized portrait. Your agent finally remembers your life, so every conversation is grounded in who you actually are.
+- **`reflect`** — a proactive loop that surfaces patterns, progress, open loops, and *on this day* memories, so your diary reflects your life back to you instead of sitting in a folder.
+
+> **Obsidian stores your notes. Dear Agent remembers your life and talks back.** And because it never leaves your machine, it's the one place you can be completely honest.
+
+## Works with any agent, harness, or interface
+
+| Interface | How |
+|-----------|-----|
+| **MCP tools** | 11 tools (below) over stdio. |
+| **MCP prompts** | `daily_checkin`, `weekly_reflection` — surface as slash-commands. |
+| **MCP resources** | `diary://today`, `diary://index`. |
+| **Skill** | [`SKILL.md`](./SKILL.md) for skill-based harnesses (Claude Code, OpenClaw). |
+| **CLI** | `dear-agent add "..."`, `recall`, `reflect`, … — for any agent that can run a shell. |
+
+CLI examples:
+
+```bash
+dear-agent add "Closed the interview, felt good." --mood hopeful --tags job,win
+dear-agent recall Sarah
+dear-agent reflect week
+dear-agent on-this-day
+```
+
 ## Tools
 
 | Tool | What it does |
@@ -72,7 +100,9 @@ Your agent calls the right tool and keeps the diary current.
 | `get_day` | Read one day's full entry. |
 | `get_range` | Read entries between two dates. |
 | `search` | Find days matching a word or phrase. |
-| `on_this_day` | Resurface this calendar day from past months and years. |
+| `recall` | What the diary knows about a person/topic, or a whole-life profile digest. |
+| `reflect` | Patterns, progress, open loops, and on-this-day, for a proactive check-in. |
+| `on_this_day` | Resurface this same calendar date from past years. |
 | `weekly_digest` | Pull the last 7 days for a reflection. |
 | `list_days` | List every day on record. |
 
