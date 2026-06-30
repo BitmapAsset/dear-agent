@@ -5,6 +5,10 @@
 [![MCP](https://img.shields.io/badge/Model_Context_Protocol-ready-6E56CF.svg)](https://modelcontextprotocol.io)
 [![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](#contributing)
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/BitmapAsset/dear-agent/main/assets/dear-agent.jpg" alt="A person tells their AI agent about a hard day; the agent writes it into their diary." width="100%">
+</p>
+
 **Your AI agent keeps your diary for you. You never open an app or write a word.**
 
 You already talk to an AI agent all day. Dear Agent lets that agent quietly keep your personal life journal — filing what you tell it, the photos you send, and the voice notes you record, neatly by date. No app to open. No blank page to face. No habit to build. You just live your life and mention what matters; your agent does the writing.
