@@ -1,5 +1,10 @@
 # Dear Agent
 
+[![npm version](https://img.shields.io/npm/v/dear-agent.svg)](https://www.npmjs.com/package/dear-agent)
+[![license: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE)
+[![MCP](https://img.shields.io/badge/Model_Context_Protocol-ready-6E56CF.svg)](https://modelcontextprotocol.io)
+[![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](#contributing)
+
 **Your AI agent keeps your diary for you. You never open an app or write a word.**
 
 You already talk to an AI agent all day. Dear Agent lets that agent quietly keep your personal life journal — filing what you tell it, the photos you send, and the voice notes you record, neatly by date. No app to open. No blank page to face. No habit to build. You just live your life and mention what matters; your agent does the writing.
@@ -121,6 +126,10 @@ Dates accept `today`, `yesterday`, or `YYYY-MM-DD`.
 ```
 
 Set `DEAR_AGENT_DIR` to choose a different location.
+
+## Contributing
+
+Issues and pull requests are welcome. Dear Agent is intentionally small and dependency-light — keep changes focused, keep storage as plain files the user owns, and keep everything local-first and private. See [ROADMAP.md](./ROADMAP.md) for where it is headed.
 
 ## License
 
